@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html><head>
   <title>CLASSIQUE</title>
-  <link rel='stylesheet' type='text/css' href='css/slate.min.css'>
-  <script src='js/slate.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/slate.min.css">
+  <script src="js/slate.min.js"></script>
   <style>
   .title {
     padding: 15px 10px;
@@ -15,10 +14,10 @@
     text-align: center;
   }
   </style>
-  </head>
+  <style type="text/css"></style></head>
 
   <body>
-    <h1 class='title'>Classique Configuration</h1>
+    <h1 class="title">Classique</h1>
     
     
     <div class="item-container">
@@ -26,21 +25,21 @@
       <div class="item-container-content">
         <label class="item">
           Steps today (numeric)
-          <p></p><small>This will only work if you have health set up on your pebble.</small></p>
-          <input type="radio" class="item-radio" id="lower_display_steps_num_checkbox" name="radio-1" value="a" checked>
-        </label>
+          <p></p><small>This will only work if you have health set up on your pebble.</small><p></p>
+          <input type="radio" class="item-radio" id="lower_display_steps_num_checkbox" name="radio-1" value="a" checked="">
+        <div class="item-styled-radio"></div></label>
         <label class="item">
           Battery (numeric)
           <input type="radio" class="item-radio" id="lower_display_batt_num_checkbox" name="radio-1" value="b">
-        </label>
+        <div class="item-styled-radio"></div></label>
         <label class="item">
           Battery (bar)
           <input type="radio" class="item-radio" name="radio-1" id="lower_display_batt_bar_checkbox" value="c">
-        </label>
+        <div class="item-styled-radio"></div></label>
         <label class="item">
           Nothing
           <input type="radio" class="item-radio" name="radio-1" id="lower_display_blank_checkbox" value="d">
-        </label>
+        <div class="item-styled-radio"></div></label>
       </div>
     </div>
     
@@ -50,28 +49,33 @@
         <label class="item">
           Show icon on phone disconnection
           <input type="checkbox" class="item-checkbox" id="bt_icon_checkbox" name="checkbox-1">
-        </label>
+        <div class="item-styled-checkbox"></div></label>
         <label class="item">
           Vibrate briefly on phone disconnection
           <input type="checkbox" class="item-checkbox" id="bt_vibrate_checkbox" name="checkbox-2">
-        </label>
+        <div class="item-styled-checkbox"></div></label>
       </div>
     </div>
     
     <div class="item-container">
+  <div class="item-container-header">Exclusive Edition</div>
+<div class="width-image"><img src="config-examples.png" style="
+    width: 100%;
+    max-width: 606px;
+"></div>
       <div class="item-container-content">
         <div class="item">
           Classique will always be free and will never have features taken away. 
           But if you want to support the developer (me), and in return get loads 
-          of customisation options, you can get Classique Exclusive Edition from
+          of customisation options, you can get <a href="#">Classique Exclusive Edition</a> from
           the Pebble App Store for $1.25!
         </div>
       </div>
     </div>
     
-    <div class='item-container'>
-      <div class='button-container'>
-        <input id='submit_button' type='button' class='item-button' value='SUBMIT'>
+    <div class="item-container">
+      <div class="button-container">
+        <input id="submit_button" type="button" class="item-button" value="SUBMIT">
       </div>
     </div>
 
